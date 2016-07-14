@@ -71,7 +71,7 @@
     "supertest": "1.2.0",
     "connect-redis": "~3.1.0",
     "cookie-session": "~1.2.0",
-    "express-session": "~1.13.0",
+    "express-session": "~1.14.0",
     "jade": "~1.11.0",
     "multiparty": "~4.1.2",
     "vhost": "~3.0.2"
