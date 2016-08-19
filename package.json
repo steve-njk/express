@@ -58,7 +58,7 @@
     "ws": "^1.0.0"
   },
   "devDependencies": {
-    "after": "0.8.1",
+    "after": "0.8.2",
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "ejs": "2.4.2",
