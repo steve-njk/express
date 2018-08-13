@@ -73,7 +73,7 @@
     "cookie-session": "~1.2.0",
     "express-session": "~1.13.0",
     "jade": "~1.11.0",
-    "multiparty": "~4.2.0",
+    "multiparty": "~4.2.1",
     "vhost": "~3.0.2"
   },
   "engines": {
