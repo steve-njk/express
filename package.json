@@ -55,7 +55,8 @@
     "type-is": "~1.6.13",
     "utils-merge": "1.0.0",
     "vary": "~1.1.0",
-    "ws": "^1.0.0"
+    "ws": "^1.0.0",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "after": "0.8.1",
@@ -90,6 +91,9 @@
     "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/",
     "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
-    "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
-  }
+    "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
