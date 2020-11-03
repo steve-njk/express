@@ -51,7 +51,7 @@
     "request": "~2.60.0",
     "send": "0.14.1",
     "serve-static": "~1.11.1",
-    "shell-quote": "~1.6.0",
+    "shell-quote": "~1.7.2",
     "type-is": "~1.6.13",
     "utils-merge": "1.0.0",
     "vary": "~1.1.0",
