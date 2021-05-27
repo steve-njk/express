@@ -55,7 +55,7 @@
     "type-is": "~1.6.13",
     "utils-merge": "1.0.0",
     "vary": "~1.1.0",
-    "ws": "^1.0.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "after": "0.8.1",
